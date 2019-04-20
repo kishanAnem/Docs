@@ -314,7 +314,7 @@ It's often convenient to close over additional values, such as when iterating ov
     private void UpdateHeading(UIMouseEventArgs e, int buttonNumber)
     {
         message = $"You selected Button #{buttonNumber} at " +
-            "mouse position: {e.ClientX} X {e.ClientY}.";
+            $"mouse position: {e.ClientX} X {e.ClientY}.";
     }
 }
 ```
